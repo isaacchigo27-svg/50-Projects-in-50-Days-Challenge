@@ -1,4 +1,4 @@
-Day 07 - Login Form
+Day 08 - Login Form
 
 A simple login form built with HTML and CSS.
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="box">
+    <h1>Contact Us</h1>
+    <p class="sub">Have a question? Send us a message.</p>
+
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Your name">
+
+      <label>Email</label>
+      <input type="email" placeholder="Your email">
+
+      <label>Message</label>
+      <textarea rows="5" placeholder="Write your message"></textarea>
+
+      <button>Send message</button>
+    </form>
+
+    <hr>
+
+    <p>📞 0704 137 4919</p>
+    <p>✉️ Zicc@gmail.com</p>
+    <p>📍 12 Example Street, Port Harcourt</p>
+  </div>
+
+</body>
+</html>
