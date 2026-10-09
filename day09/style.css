@@ -1,36 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
 
-  <div class="box">
-    <h1>Contact Us</h1>
-    <p class="sub">Have a question? Send us a message.</p>
+.box {
+  width: 320px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
 
-    <form>
-      <label>Name</label>
-      <input type="text" placeholder="Your name">
+.sub {
+  color: #666;
+}
 
-      <label>Email</label>
-      <input type="email" placeholder="Your email">
+form {
+  text-align: left;
+}
 
-      <label>Message</label>
-      <textarea rows="5" placeholder="Write your message"></textarea>
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+}
 
-      <button>Send message</button>
-    </form>
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #0d9488;
+  color: white;
+  cursor: pointer;
+}
 
-    <hr>
-
-    <p>📞 0704 137 4919</p>
-    <p>✉️ Zicc@gmail.com</p>
-    <p>📍 12 Example Street, Port Harcourt</p>
-  </div>
-
-</body>
-</html>
+hr {
+  margin: 25px 0;
+}
